@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top">
+    <TextView
+        android:id="@+id/tulisan"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atta Gledek"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tulisan"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Nama"
+        android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tulisan"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Atta Gledek edan pisan"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Alamat"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nama"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Surabaya"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Kampus"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/kampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alamat"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="SMKN 4 Bandung"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/kampus"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/Gambar"/>
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Kemali"/>
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/kembali"
+        android:layout_below="@id/image"
+        android:layout_marginTop="15dp"
+        android:text="Next"/>
+
+</RelativeLayout>
